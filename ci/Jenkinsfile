@@ -20,6 +20,7 @@ pipeline {
 				echo "============================="
 				echo "This is feature branch"
 				echo "============================="
+				exit 1
 			}
 		}
 	}
