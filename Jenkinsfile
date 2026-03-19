@@ -72,7 +72,7 @@ pipeline{
                 branch 'feature/multi/*'
             }
             steps {
-                echo ("Dynamic")
+                echo ("${env.STAGE_NAME}")
             }
         }
         stage('Test') {
@@ -135,4 +135,5 @@ pipeline{
         }
     }
 }
+
 
